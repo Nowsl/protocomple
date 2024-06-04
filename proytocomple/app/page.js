@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <div>
-        <h2 className='font-bold text-2xl text-center m-4'>Productos</h2>
+        <h2 className='font-bold text-2xl text-center m-4'>Producto</h2>
         <div className='grid grid-cols-4 gap-4'>
             {productos.map((element)=>{
                 return (<Card />)
